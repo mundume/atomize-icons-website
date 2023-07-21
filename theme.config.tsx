@@ -1,18 +1,18 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react";
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span className="md:text-3xl font-bold ">Atomize Icons</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: "https://github.com/nzaih1999/atomize_icons",
   },
   chat: {
-    link: 'https://discord.com',
+    link: "https://discord.com",
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: "https://github.com/nzaih1999/atomize_icons",
   footer: {
-    text: 'Nextra Docs Template',
+    text: "Atomize Icons",
   },
-}
+};
 
-export default config
+export default config;
