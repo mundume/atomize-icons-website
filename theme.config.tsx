@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.com",
   },
-  docsRepositoryBase: "https://github.com/nzaih1999/atomize_icons",
+  docsRepositoryBase: "https://github.com/nzaih1999/atomize-icons-website",
   footer: {
     text: "Atomize Icons",
   },
