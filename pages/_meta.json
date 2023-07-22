@@ -1,6 +1,11 @@
 {
   "index": "Home",
-
+  "another":{
+    "display": "hidden"
+  },
+  "advanced": {
+      "display": "hidden"
+  },
   "about": {
     "title": "About",
     "type": "page"
