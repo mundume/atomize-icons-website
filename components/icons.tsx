@@ -101,6 +101,8 @@ import {
   User,
   Warning,
 } from "atomize_icons";
+import { toast } from "sonner";
+import React from "react"
 
 export default function Icons() {
   const iconComponents = {
@@ -315,7 +317,8 @@ export default function Icons() {
     window.navigator.clipboard
       .writeText(iconName)
       .then(() => {
-        console.log("Copied to clipboard:", iconName);
+     toast.success(`copied ${iconName} to clipboard`)
+        
       })
       .catch((error) => {
         console.error("Failed to copy to clipboard:", error);
@@ -328,7 +331,7 @@ export default function Icons() {
         const IconComponent = iconComponents[iconName];
 
         return (
-          //    @ts-ignore
+         
           <div
             key={index}
             onClick={() => handleIconClick(iconName)}
