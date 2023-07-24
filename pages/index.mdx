@@ -12,28 +12,41 @@ To install all you need to do is run the following command in your terminal of c
 
     <Tabs items={["pnpm", "npm", "yarn"]} >
       <Tab >
-      ```bash
-
+      ```bash copy 
         pnpm add atomize_icons
 
       ```
       </Tab>
       <Tab>
 
-      ```bash
-
+      ```bash copy
         npm install atomize_icons
 
       ```
       </Tab>
       <Tab>
-       ```bash
-
+       ```bash copy
         yarn add atomize_icons
 
       ```
       </Tab>
     </Tabs>
+
+
+    ## Usage
+
+
+```jsx copy
+import { About } from "atomize_icons";
+
+function App() {
+  return (
+    <h1>
+      What are you talking <About /> ?
+    </h1>
+  );
+}
+```
 
 ## Documentation
 
